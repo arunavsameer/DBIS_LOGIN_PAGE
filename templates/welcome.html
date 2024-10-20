@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - IIT Indore Portal</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <img src="static/Logo.png" alt="IIT Indore Logo" class="logo animate-drop">
+            <h1 id="welcome-to-iit-indore" class="animate-fade">Welcome to IIT Indore</h1>
+            <div class="welcome-message animate-slide-up">
+                <p>Hello, <strong>{{ username }}</strong>!</p>
+                <p>Explore Courses here</p>
+            </div>
+            <div class="button-container">
+                <a href="http://localhost:5000/courses" class="btn modern-btn">Courses</a>
+                <a href="http://localhost:5000/logout" class="btn modern-btn">Logout</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
