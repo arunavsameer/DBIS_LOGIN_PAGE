@@ -4,7 +4,6 @@ import pymysql
 
 app = Flask(__name__)
 
-# Configure MySQL
 db_config = {
     'host': '127.0.0.1',
     'user': 'root',
